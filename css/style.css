@@ -1,0 +1,20 @@
+#texiao2 {
+        width: 100px;
+        height: 100px;
+        background: #ccc;
+        border: 1px solid #000;
+    }
+
+#elem {
+    color: #006;
+    background-color: #aaa;
+    font-size: 25px;
+    padding: 1em;
+    text-align: center;
+  }
+
+   #baiye {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+  }
