@@ -12,3 +12,7 @@ $( "#toggle" ).click(function() {
 $( "#baiye2" ).click(function() {
   $( "#baiye" ).toggle( "blind",{direction:"right"} );
 });
+
+$( "#bounce2" ).click(function() {
+  $( "#bounce" ).toggle( "bounce", { times: 3,distance : 20}, "slow" );
+});
