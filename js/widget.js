@@ -35,3 +35,17 @@ $( "#dialog" ).dialog({ autoOpen: false ,
 $( "#opener" ).click(function() {
   $( "#dialog" ).dialog( "open" );
 });
+
+$( "#progressbar" ).progressbar({
+  value: false
+});
+
+  $( document ).tooltip();
+
+  $(function() {
+    $( "#draggable" ).draggable({ axis: "y" });
+    $( "#draggable2" ).draggable({ axis: "x" });
+ 
+    $( "#draggable3" ).draggable({ containment: "#containment-wrapper", scroll: false });
+    $( "#draggable5" ).draggable({ containment: "parent" });
+  });
